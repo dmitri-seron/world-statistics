@@ -1,0 +1,18 @@
+<?php
+/**
+ * Application configuration.
+ *
+ * @author Dmitri Seron <dmitri.seron@gmail.com>
+ */
+
+// Display errors options.
+ini_set('error_reporting', E_ALL);
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+
+// Database connection parameters.
+define('DBNAME', 'default');
+define('HOST', 'db');
+define('USER', 'user');
+define('PASSWORD', 'user');
+define('CHARSET', 'utf8');
